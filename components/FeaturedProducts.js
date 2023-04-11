@@ -2,48 +2,9 @@ import React from 'react'
 import { MagnifyingGlassCircleIcon, ShoppingCartIcon } from '@heroicons/react/24/outline'
 import { useRouter } from 'next/router'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid';
+import products from '../pages/api/products';
 const FeaturedProducts = () => {
   const router=useRouter();
-
-  const products = [
-    {
-      id: 1,
-      name: 'Basic Tee',
-      href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-      imageAlt: "Front of men's Basic Tee in black.",
-      price: '$35',
-      color: 'Black',
-    },
-    {
-      id: 1,
-      name: 'Basic Tee',
-      href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-      imageAlt: "Front of men's Basic Tee in black.",
-      price: '$35',
-      color: 'Black',
-    },
-    {
-      id: 1,
-      name: 'Basic Tee',
-      href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-      imageAlt: "Front of men's Basic Tee in black.",
-      price: '$35',
-      color: 'Black',
-    },
-    {
-      id: 1,
-      name: 'Basic Tee',
-      href: '#',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-      imageAlt: "Front of men's Basic Tee in black.",
-      price: '$35',
-      color: 'Black',
-    },
-    // More products...
-  ]
   return (
     <>
     <h1 className='text-black text-2xl font-bold'>Featured products</h1>
@@ -51,7 +12,7 @@ const FeaturedProducts = () => {
     <div>
       <div>
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-          {products.map((product) => (
+          {products.Data.map((product) => (
             <div key={product.id} className="group relative">
               <div onClick={()=>router.push(`/productsDetails/?ProductID=${product.id}`)} className="min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none hover:cursor-pointer lg:h-80">
                 <img

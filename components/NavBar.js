@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {ShoppingCartIcon, UserIcon,MagnifyingGlassIcon} from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import Modal from './Modal'
 const NavBar = () => {
+    const[OpenUserModal,setOpenUserModal]=useState(false)
+    console.log(OpenUserModal)
   return (
     <nav className='py-4 shadow-sm flex flex-row justify-between m-auto items-center'>
         <div>
@@ -21,7 +24,8 @@ const NavBar = () => {
             <input className='p-1' type='text' placeholder='search'/>
             </div>
             <ShoppingCartIcon className='h-5 w-5 text-slate-900 hover:animate-bounce'/>
-            <UserIcon className='h-5 w-5 text-slate-900 hover:animate-bounce'/>
+            <UserIcon className='h-5 w-5 text-slate-900 hover:animate-bounce cursor-pointer' onClick={()=>setOpenUserModal(!OpenUserModal)}/>
+            <Modal isOpen={OpenUserModal} isClose={setOpenUserModal}/>
         </div>
     </nav>
   )

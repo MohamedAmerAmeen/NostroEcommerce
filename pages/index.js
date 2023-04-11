@@ -1,9 +1,11 @@
+import BigBanner from "../components/BigBanner";
 import Brands from "../components/Brands";
 import CurratedPicks from "../components/CurratedPicks";
 import CustomerExp from "../components/CustomerExp";
 import DiscountBar from "../components/DiscountBar";
 import FeaturedProducts from "../components/FeaturedProducts";
 import MainCaoursel from "../components/MainCaoursel";
+import Example from "../components/Modal";
 import NavBar from "../components/NavBar";
 import Head from 'next/head'
 
@@ -23,6 +25,7 @@ export default function Home() {
       <CustomerExp/>
       <CurratedPicks/>
       <FeaturedProducts/>
+      <BigBanner/>
     </div>
   )
 }

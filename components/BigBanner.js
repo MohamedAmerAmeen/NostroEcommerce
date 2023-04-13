@@ -4,7 +4,7 @@ const BigBanner = () => {
   return (
     <>
     <div className='mt-20 flex  w-full bg-gray-800 rounded-xl'>
-        <Image className=' rounded-xl' src='https://img.freepik.com/free-photo/young-woman-with-colorful-lollipop_155003-5624.jpg?w=1060&t=st=1681027697~exp=1681028297~hmac=d3f6df73047f68feca1d2ea1fd64d24ee04d45fbca0a820191a92b95e7af624a' width={600} height={600}/>
+        <Image alt='' className=' rounded-xl' src='https://img.freepik.com/free-photo/young-woman-with-colorful-lollipop_155003-5624.jpg?w=1060&t=st=1681027697~exp=1681028297~hmac=d3f6df73047f68feca1d2ea1fd64d24ee04d45fbca0a820191a92b95e7af624a' width={600} height={600}/>
         <div className=' text-white p-16'>
             <p className='text-gray-200 text-lg tracking-wider mb-3'>Limited offer</p>
             <p className='text-6xl'>35% off only this friday and get special gift</p>

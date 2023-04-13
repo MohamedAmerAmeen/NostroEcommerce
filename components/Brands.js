@@ -14,14 +14,14 @@ const Brands = () => {
     <>
     <h1 className='text-slate-900 text-3xl font-bold'>Brands</h1>
     <div className='flex flex-row whitespace-nowrap p-10 space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide'>
-      <Image src={Adidas} width={100} height={50}/>
-      <Image src={DG} width={100} height={50}/>
-      <Image src={GA} width={100} height={50}/>
-      <Image src={Gucci} width={100} height={50}/>
-      <Image src={LV} width={100} height={50}/>
-      <Image src={Mango} width={100} height={50}/>
-      <Image src={Nike} width={100} height={50}/>
-      <Image src={Prada} width={100} height={50}/>
+      <Image src={Adidas} width={100} height={50} alt=''/>
+      <Image src={DG} width={100} height={50} alt=''/>
+      <Image src={GA} width={100} height={50} alt=''/>
+      <Image src={Gucci} width={100} height={50} alt=''/>
+      <Image src={LV} width={100} height={50} alt=''/>
+      <Image src={Mango} width={100} height={50} alt=''/>
+      <Image src={Nike} width={100} height={50} alt=''/>
+      <Image src={Prada} width={100} height={50} alt=''/>
 
     </div>
     </>

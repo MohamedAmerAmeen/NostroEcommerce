@@ -26,7 +26,7 @@ const MainCaoursel = () => {
   return (
     <Carousel>
         {items.map( (item) =>(
-            <div class="flex py-10 justify-center items-center flex-col ">
+            <div key={item.id} class="flex py-10 justify-center items-center flex-col ">
             <div class={`h-96 w-full rounded-lg bg-cover bg-center`} style={{ backgroundImage: `url(${item.img})`}}>
                 <div class="w-full h-full flex  justify-center items-center backdrop-brightness-50">
                         <div className='flex flex-col items-center'>

@@ -8,10 +8,10 @@ const NavBar = () => {
   return (
     <nav className='py-4 shadow-sm flex flex-row justify-between m-auto items-center'>
         <div>
-            <p className='text-slate-900 font-bold text-3xl cursor-pointer'>N<span className='text-2xl underline'>O</span>STRA</p>
+            <p className='text-gray-800 font-bold text-3xl cursor-pointer'>N<span className='text-2xl underline'>O</span>STRA</p>
         </div>
         <div>
-            <ul className='flex flex-row space-x-10 text-slate-900'>
+            <ul className='flex flex-row space-x-10 text-gray-800'>
                 <Link className='cursor-pointer transation-all duration-100 ease-in hover:scale-110 hover:text-slate-950' href={'/'}>Shop</Link>
                 <li className='cursor-pointer transation-all duration-100 ease-in hover:scale-110 hover:text-slate-950'>Most Wanted</li>
                 <li className='cursor-pointer transation-all duration-100 ease-in hover:scale-110 hover:text-slate-950'>New Arrival</li>

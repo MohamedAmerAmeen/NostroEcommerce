@@ -34,7 +34,7 @@ const CurratedPicks = () => {
     <h1 className='text-black text-2xl font-bold'>Currated picks</h1>
 <div className='flex flex-row justify-between whitespace-nowrap overflow-x-scroll space-x-5 sm:space-x-5 md:space-x-5 scrollbar-hide'>
     {items.map( (item) =>(
-            <div class="flex flex-row py-10 justify-center items-center">
+            <div key={Math.random()} class="flex flex-row py-10 justify-center items-center">
               <div class={`h-80 w-80 rounded-xl bg-cover bg-center`} style={{ backgroundImage: `url(${item.img})`}}>
                   <div class="w-full h-full flex rounded-xl justify-center items-end pb-10 backdrop-brightness-75">
                           <div className=' hover:scale-105 transition duration-200 hover:bg-gray-100 hover:cursor-pointer ease-in-out flex flex-row text-gray-500 p-3 rounded-md justify-between space-x-5 items-center  bg-white'>

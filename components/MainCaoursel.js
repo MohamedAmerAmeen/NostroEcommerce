@@ -28,7 +28,7 @@ const MainCaoursel = () => {
         {items.map( (item) =>(
             <div key={item.id} class="flex py-10 justify-center items-center flex-col ">
             <div class={`h-96 w-full rounded-lg bg-cover bg-center`} style={{ backgroundImage: `url(${item.img})`}}>
-                <div class="w-full h-full flex  justify-center items-center backdrop-brightness-50">
+                <div class="w-full h-full flex rounded-lg justify-center items-center backdrop-brightness-50">
                         <div className='flex flex-col items-center'>
                             <span class="text-white text-4xl w-1/2 text-center">{item.description}</span>
                             <button className='text-black bg-white px-4 py-2 mt-2 rounded-lg'>Shop Now</button>

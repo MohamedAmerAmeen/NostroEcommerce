@@ -8,23 +8,23 @@ const Footer = () => {
         </div>
         <div className='space-y-2 cursor-pointer'>
           <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Privacy Policy</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Terms of use</p>
         </div>
         <div className='space-y-2 cursor-pointer'>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Copyright information</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>FAQs</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Awards</p>
         </div>
         <div className='space-y-2 cursor-pointer'>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Contact Us</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Return Policy</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Partner Ships</p>
         </div>
         <div className='space-y-2 cursor-pointer'>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
-          <p className='hover:scale-110 transation duration-100 ease-in-out'>About Us</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Site Map</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Terms & Conditions</p>
+          <p className='hover:scale-110 transation duration-100 ease-in-out'>Social Media</p>
         </div>
       </div>
     

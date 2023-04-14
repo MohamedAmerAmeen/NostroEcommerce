@@ -30,7 +30,7 @@ const MainCaoursel = () => {
             <div class={`h-96 w-full rounded-lg bg-cover bg-center`} style={{ backgroundImage: `url(${item.img})`}}>
                 <div class="w-full h-full flex rounded-lg justify-center items-center backdrop-brightness-50">
                         <div className='flex flex-col items-center'>
-                            <span class="text-white text-4xl w-1/2 text-center">{item.description}</span>
+                            <span class="text-white text-xl font-semibold sm:md:lg:text-4xl sm:md:lg:w-9/12  text-center">{item.description}</span>
                             <button className='text-black bg-white px-4 py-2 mt-2 rounded-lg'>Shop Now</button>
                         </div>
                 </div>
